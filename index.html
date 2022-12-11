@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">;
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel Decorative|Fredericka the Great|Pacifico">
+    <title>12dec</title>
+    <link rel="shortcut icon" href=" favicon.ico" type="image/x-icon" >
+</head>
+<body>
+    <div class="main">
+        <div class="hbd">
+            <div id="headin">
+                <h2 data-text="&nbsp;Happy Birthday Sachin &hearts; &nbsp; ">&nbsp;Happy Birthday Sachin &hearts;&nbsp;
+                </h2>
+            </div>
+            <p id="tada">TADA! Love U Babes &heartsuit;</p>
+        </div>
+        <div class="sounds">
+            <p class="xyz">Wanna hear this from me???</p>
+            <span id="btn"><button class="button" onclick="myfunc()">click&#10024 </button></span>
+    
+    
+            <ul class="soundWaves" onclick="myfunc2()" style="cursor:pointer" title="Mere pass kuch or gana ni tha :|">
+                <li>
+                    <div id="a" class="child"></div>
+                </li>
+                <li>
+                    <div id="b" class="child"></div>
+                </li>
+                <li>
+                    <div id="c" class="child"></div>
+                </li>
+                <li>
+                    <div id="d" class="child"></div>
+                </li>
+                <li>
+                    <div id="e" class="child"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <audio id="hbd">
+        <source src="audio.mp3" type="audio/mp3">
+    </audio>
+    <audio id="myhbd">
+        <source src="she.m4a">
+    </audio>
+    <script>
+        var mySong = document.getElementById('myhbd');
+        var mysong2= document.getElementById('hbd');
+        var icon = getElementById('btn');
+
+        function myfunc() {
+            if(mySong.paused){
+                mySong.play();
+                perfect.pause();
+            }else{
+                mySong.puase();
+                perfect.play();
+            }
+        }
+        function myfunc2() {
+            if(mysong2.paused){
+                mysong2.play();
+            }else{
+                mysong2.puase();
+            }
+        }
+    </script>
+</body>
+</html>
