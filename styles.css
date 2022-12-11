@@ -192,3 +192,17 @@ li{
         background: #9b59b6;
     }
 }
+
+.prempatra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prempatra p{
+    color: rgb(27, 212, 10);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
